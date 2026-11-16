@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>股票入門講義</title><link rel="stylesheet" href="style.css"><script src="lessons.js" defer></script><script src="app.js" defer></script></head>
+<body><header><a href="./index.html">股票入門講義</a><a href="#/1">開始閱讀</a></header>
+<main id="home">
+<section class="hero"><div><p class="label">給第一次接觸股票的你</p><h1>股票入門<br>一頁一個觀念</h1><p>從股價與股數開始，用一筆虛構交易練習算成本、損益與報酬率。</p><a class="button" href="#/1">從第一頁開始 →</a></div>
+<figure class="cover"><img src="cover.webp" alt="柴犬坐在窗邊，桌上攤著投資筆記" width="960" height="640" fetchpriority="high"><figcaption>交易練習 · 每股 50 元 × 100 股</figcaption></figure></section>
+<section id="catalog"><h2>講義目錄</h2><div id="cards" class="cards"></div></section>
+</main>
+<main id="reader" hidden>
+<nav class="reader-top"><a href="./index.html">← 講義目錄</a><span id="page-number"></span></nav>
+<progress id="progress" aria-label="講義閱讀進度"></progress>
+<article id="slide"></article>
+<nav class="pager" aria-label="講義翻頁"><button id="prev">← 上一頁</button><button id="next">下一頁 →</button></nav>
+<p class="tip">也可以用鍵盤 ← → 翻頁</p>
+</main>
+<footer>股票入門講義 · 範例使用虛構數字</footer>
+<noscript>請啟用 JavaScript 以瀏覽講義及互動練習。</noscript></body></html>
